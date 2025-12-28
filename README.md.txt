@@ -17,6 +17,8 @@ Links and Sources Used:
 
 https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes - Used to write ReadMe
 
+https://www.accuweather.com/en/ie/waterford/210082/allergies-weather/210082 - Used for reference for Pollen Count
+
 <a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by iconixar - Flaticon</a> - icons sun.png, cloudy.png, cloud.png, rainy.png, snowy.png
 from artist iconixar, also referenced in footer
 
@@ -39,5 +41,6 @@ https://www.flaticon.com/free-icon/cold_1933702?term=emoji&page=1&position=67&or
 * [Node](https://nodejs.org/en/) for local web server and allow to use templating tools
 * [Nunjucks](https://mozilla.github.io/nunjucks/) used for templating and layout
 * [Netifly] (https://www.netlify.com/) used for public deploying 
+
 
 

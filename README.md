@@ -1,8 +1,5 @@
 WhetherWeather
 
-
-Name : Doireann O'Carroll
-Student Number: 20022107
 Webpage: https://whetherweatherdoc.netlify.app/
 
 What the project and why is it useful:

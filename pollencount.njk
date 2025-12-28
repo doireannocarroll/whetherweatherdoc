@@ -1,0 +1,51 @@
+---
+layout: layout.njk
+---
+
+<!DOCTYPE html>
+   <p class="mt-4"></p>
+ <header><img src="/images/logo.png" sizes="128x64"></header>
+<main class="container">
+  <h1> Pollen Count </h1>
+  <p> A brief overview of the pollen risk for the current day</p>
+  <p> Rating is given as follows: </p>
+  <p> Low = Low Pollen Risk - Little to no precautions needed for those with Hay Fever</p>
+  <p> Medium = Medium Pollen Risk - Some precautions needed for those with Hay Fever</p>
+  <p> High = High Pollen Risk - Precautions needed for those with Hay Fever</p>
+  <p class="mt-4"></p>
+    <div class="columns is-1 is-centered">
+      <p class="mgl-small"></p>
+
+      {% set cityName = "Dublin" %}
+      {% set pollenImage = "/images/smile.png" %}
+      {% set pollenLevel = "Low" %} 
+      {% include "pollencard.njk" %}
+
+      {% set cityName = "London" %}
+      {% set pollenImage = "/images/smile.png" %}
+      {% set pollenLevel = "Low" %} 
+      {% include "pollencard.njk" %}
+
+      {% set cityName = "Paris" %}
+      {% set pollenImage = "/images/cold.png" %}
+      {% set pollenLevel = "High" %} 
+      {% include "pollencard.njk" %}
+      
+      {% set cityName = "Madrid" %}
+      {% set pollenImage = "/images/cold.png" %}
+      {% set pollenLevel = "High" %} 
+      {% include "pollencard.njk" %}
+
+      {% set cityName = "Berlin" %}
+      {% set pollenImage = "/images/smile.png" %}
+      {% set pollenLevel = "Low" %} 
+      {% include "pollencard.njk" %}
+
+      {% set cityName = "Berlin" %}
+      {% set pollenImage = "/images/neutral.png" %}
+      {% set pollenLevel = "Medium" %} 
+      {% include "pollencard.njk" %}
+      
+    </div>
+  </div>
+  <p class="mb-4"></p>

@@ -1,0 +1,61 @@
+---
+layout: layout.njk
+---
+
+<!DOCTYPE html>
+   <p class="px-6"></p>
+   <p class="pl-6"></p>
+    <p class="mt-4"></p>
+
+ <h1><img src="/images/logo.png" sizes="128x64"></h1>
+   <div class="columns is-4 is-centered">
+  <p class="px-6"></p>
+    <p class="mt-4"></p>
+      {% set cityName = "Dublin" %}
+      {% set cityPage = "/dublin" %}
+      {% set weatherImage = "/images/rainy.png" %}
+      {% set weatherDescription = "Temp: 6°C Wind: 14kmh" %} 
+      {% include "maincard.njk" %}
+
+      {% set cityName = "London" %}
+      {% set cityPage = "/london" %}
+      {% set weatherImage = "/images/snowy.png" %}
+      {% set weatherDescription = "Temp: 4°C Wind: 19kmh" %} 
+      {% include "maincard.njk" %}
+
+      {% set cityName = "Paris" %}
+      {% set cityPage = "/paris" %}
+      {% set weatherImage = "/images/cloudy.png" %}
+      {% set weatherDescription = "Temp: 14°C Wind: 12kmh" %} 
+      {% include "maincard.njk" %}
+  		</div>
+  	</div>
+  	<p class="mb-4"></p>
+  </div>
+
+  <div class="columns is-4 is-centered">
+  <p class="px-6"></p>
+    <p class="mt-4"></p>
+      {% set cityName = "Madrid" %}
+      {% set cityPage = "/madrid" %}
+      {% set weatherImage = "/images/sun.png" %}
+      {% set weatherDescription = "Temp: 15°C Wind: 10kmh" %} 
+      {% include "maincard.njk" %}
+
+      {% set cityName = "Berlin" %}
+      {% set cityPage = "/berlin" %}
+      {% set weatherImage = "/images/cloudy.png" %}
+      {% set weatherDescription = "Temp: 8°C Wind: 13kmh" %} 
+      {% include "maincard.njk" %}
+
+      {% set cityName = "Lisbon" %}
+      {% set cityPage = "/lisbon" %}
+      {% set weatherImage = "/images/sun.png" %}
+      {% set weatherDescription = "Temp: 16°C Wind: 5kmh" %} 
+      {% include "maincard.njk" %}
+      </div>
+    </div>
+    <p class="mb-4"></p>
+  </div>
+  		
+    

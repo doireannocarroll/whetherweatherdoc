@@ -1,0 +1,32 @@
+---
+layout: layout.njk
+---
+
+<!DOCTYPE html>
+   <p class="mt-4"></p> 
+   <div class="columns is-3 is-centered">
+     {% set cityName = "Berlin" %}
+      {% set currentImage = "/images/cloudy.png" %}
+      {% set temp = "8°C" %}
+      {% set wind = "13 kmh" %}
+      {% set pollenImage = "/images/smile.png" %}
+      {% set level = "Low" %}
+      {% set tomorrowImage = "/images/rainy.png" %}
+      {% set tomorrowWeather = "Temp: 11°C Wind: 17kmh" %}
+      {% set mondayImage = "/images/cloudy.png" %}
+      {% set mondayWeather = "Temp: 9°C Wind: 15kmh" %}
+      {% set tuesdayImage = "/images/cloudy.png" %}
+      {% set tuesdayWeather = "Temp: 6°C Wind: 13kmh" %}
+      {% set wednesdayImage = "/images/rainy.png" %}
+      {% set wednesdayWeather = "Temp: 4°C Wind: 15kmh" %}
+      {% set thursdayImage = "/images/snowy.png" %}
+      {% set thursdayWeather = "Temp: 3°C Wind: 17kmh" %}
+      {% set fridayImage = "/images/snowy.png" %}
+      {% set fridayWeather = "Temp: 4°C Wind: 18kmh" %}
+      {% set saturdayImage = "/images/cloudy.png" %}
+      {% set saturdayWeather = "Temp: 3°C Wind: 12kmh" %}
+      {% include "city.njk" %}
+      
+      </div>
+<p class="mb-4"></p>
+    

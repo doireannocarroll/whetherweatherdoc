@@ -3,12 +3,10 @@ WhetherWeather
 
 Name : Doireann O'Carroll
 Student Number: 20022107
+Webpage: https://whetherweatherdoc.netlify.app/
 
-What the project does:
-A web service for 7 day weather prediction.
-
-Why the project is useful:
-Gives a brief overview of weather predictions for up to 7 days. Can also tell the pollen risk for the current day. Easy navigation and simple design which opens on the dashboard (Home page).
+What the project and why is it useful:
+A web service. Gives a brief overview of weather predictions for up to 7 days. Can also tell the pollen risk for the current day. Easy navigation and simple design which opens on the dashboard (Home page).
 
 Maintained and created by Doireann O'Carroll (me)
 
@@ -18,6 +16,9 @@ Links and Sources Used:
 https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes#about-readmes - Used to write ReadMe
 
 https://www.accuweather.com/en/ie/waterford/210082/allergies-weather/210082 - Used for reference for Pollen Count
+
+* https://github.com/doireannocarroll/whetherweatherdoc/tree/main - github repository
+
 
 <a href="https://www.flaticon.com/free-icons/weather" title="weather icons">Weather icons created by iconixar - Flaticon</a> - icons sun.png, cloudy.png, cloud.png, rainy.png, snowy.png
 from artist iconixar, also referenced in footer
